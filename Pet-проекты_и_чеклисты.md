@@ -7,27 +7,47 @@
 
 ---
 
+## Прогресс
+
+Синхронизировано с [200_ответов_Senior_NET.html](200_ответов_Senior_NET.html) — 4 октября 2026.
+
+| Метрика | Значение |
+|---|---|
+| Вопросов отмечено | **100 / 200** |
+| Материалов пройдено | **5 / 17** |
+| Пет-проектов закрыто | **3 / 14** — TtlCache, AspNetLab, EfCoreLab |
+| Чекбоксов в этом файле | 12 / 60 |
+
+**Разборы вопросов 1–100 закрыты** (разделы 1–7), но **hands-on материал пройден только по разделам 1–5**.
+
+Два разрыва, на которые стоит обратить внимание:
+
+- **Разделы 6 и 7** (ООП/SOLID/паттерны, DDD/Clean/CQRS) — теорию отметил, а материал не прошёл: `SolidMap` и `CleanLab` не тронуты.
+- **Разделы 8–17** (90 вопросов) — не начаты вообще, включая `Behavioral`, который на собесе задают гарантированно.
+
+---
+
 ## Карта: раздел 200 ответов → проект
 
-| Раздел | Тема | Вопросов | Проект | Чек-лист |
-|---|---|---|---|---|
-| 1 | C# и .NET runtime | 20 | [TtlCache](dotnet-petprojects/TtlCache/) | п.1 |
-| 2 | Async и многопоточность | 16 | [TtlCache](dotnet-petprojects/TtlCache/) | п.1 |
-| 3 | ASP.NET Core | 12 | [AspNetLab](dotnet-petprojects/AspNetLab/) | п.5 |
-| 4 | EF Core | 12 | [EfCoreLab](dotnet-petprojects/EfCoreLab/) | п.6 |
-| 5 | Базы данных и SQL | 14 | [EfCoreLab](dotnet-petprojects/EfCoreLab/) | п.6 |
-| 6 | ООП, SOLID, паттерны | 14 | [SolidMap](dotnet-petprojects/SolidMap/) | — |
-| 7 | Архитектура: DDD, Clean, CQRS | 12 | [CleanLab](dotnet-petprojects/CleanLab/) | п.14 |
-| 8 | Микросервисы и распределённые системы | 16 | [OrderFlow](dotnet-petprojects/OrderFlow/) | п.2 + п.3 |
-| 9 | Очереди сообщений: Kafka и RabbitMQ | 12 | [OrderFlow](dotnet-petprojects/OrderFlow/) | п.2 + п.3 |
-| 10 | API: REST и gRPC | 12 | [GrpcLab](dotnet-petprojects/GrpcLab/) | п.7 |
-| 11 | Кэширование и Redis | 8 | [RedisLab](dotnet-petprojects/RedisLab/) | п.13 |
-| 12 | Контейнеры, Kubernetes, CI/CD | 12 | [K8sLab](dotnet-petprojects/K8sLab/) | п.9 |
-| 13 | Тестирование | 10 | [TestingLab](dotnet-petprojects/TestingLab/) | п.10 |
-| 14 | Производительность и highload | 10 | [PerfLab](dotnet-petprojects/PerfLab/) | п.11–12 |
-| 15 | Наблюдаемость и эксплуатация | 6 | [ObservabilityLab](dotnet-petprojects/ObservabilityLab/) | п.8 |
-| 16 | System design (открытые задачи) | 6 | [SystemDesign](dotnet-petprojects/SystemDesign/) | п.4 |
-| 17 | Поведенческие и лидерские | 8 | [Behavioral](dotnet-petprojects/Behavioral/) | п.15 |
+| Раздел | Тема | Вопросы | Проект | Чек-лист | Статус |
+|---|---|---|---|---|---|
+| 1 | C# и .NET runtime | 20/20 ✅ | [TtlCache](dotnet-petprojects/TtlCache/) | п.1 | ✅ |
+| 2 | Async и многопоточность | 16/16 ✅ | [TtlCache](dotnet-petprojects/TtlCache/) | п.1 | ✅ |
+| 3 | ASP.NET Core | 12/12 ✅ | [AspNetLab](dotnet-petprojects/AspNetLab/) | п.5 | ✅ |
+| 4 | EF Core | 12/12 ✅ | [EfCoreLab](dotnet-petprojects/EfCoreLab/) | п.6 | ✅ |
+| 5 | Базы данных и SQL | 14/14 ✅ | [EfCoreLab](dotnet-petprojects/EfCoreLab/) | п.6 | ✅ |
+| 6 | ООП, SOLID, паттерны | 14/14 ✅ | [SolidMap](dotnet-petprojects/SolidMap/) | — | ⚠️ теория есть, материал не пройден |
+| 7 | Архитектура: DDD, Clean, CQRS | 12/12 ✅ | [CleanLab](dotnet-petprojects/CleanLab/) | п.14 | ⚠️ теория есть, материал не пройден |
+| 8 | Микросервисы и распределённые системы | 0/16 | [OrderFlow](dotnet-petprojects/OrderFlow/) | п.2 + п.3 | ⬜ |
+| 9 | Очереди сообщений: Kafka и RabbitMQ | 0/12 | [OrderFlow](dotnet-petprojects/OrderFlow/) | п.2 + п.3 | ⬜ |
+| 10 | API: REST и gRPC | 0/12 | [GrpcLab](dotnet-petprojects/GrpcLab/) | п.7 | ⬜ |
+| 11 | Кэширование и Redis | 0/8 | [RedisLab](dotnet-petprojects/RedisLab/) | п.13 | ⬜ |
+| 12 | Контейнеры, Kubernetes, CI/CD | 0/12 | [K8sLab](dotnet-petprojects/K8sLab/) | п.9 | ⬜ |
+| 13 | Тестирование | 0/10 | [TestingLab](dotnet-petprojects/TestingLab/) | п.10 | ⬜ |
+| 14 | Производительность и highload | 0/10 | [PerfLab](dotnet-petprojects/PerfLab/) | п.11–12 | ⬜ |
+| 15 | Наблюдаемость и эксплуатация | 0/6 | [ObservabilityLab](dotnet-petprojects/ObservabilityLab/) | п.8 | ⬜ |
+| 16 | System design (открытые задачи) | 0/6 | [SystemDesign](dotnet-petprojects/SystemDesign/) | п.4 | ⬜ |
+| 17 | Поведенческие и лидерские | 0/8 | [Behavioral](dotnet-petprojects/Behavioral/) | п.15 | ⬜ |
 
 Всего 200 вопросов, 17 разделов, 14 проектов (11 кодовых + 3 письменных).
 
@@ -40,10 +60,10 @@
 
 Порядок волн — как в README репозитория. Одна волна = 1–2 недели.
 
-### п.1 — TtlCache · потокобезопасный кэш с TTL
-- [ ] `dotnet test` в `TtlCache/` — зелёное
-- [ ] `dotnet run --project src/TtlCache.Demo -c Release` — увидеть своими глазами
-- [ ] Бенчмарки `benchmarks/` — есть цифры, а не ощущения
+### п.1 — TtlCache · потокобезопасный кэш с TTL  ✅ пройден
+- [x] `dotnet test` в `TtlCache/` — зелёное
+- [x] `dotnet run --project src/TtlCache.Demo -c Release` — увидеть своими глазами
+- [x] Бенчмарки `benchmarks/` — есть цифры, а не ощущения
 - [ ] Конспект «что понял» 5–10 строк своими словами
 - Закрывает разделы 1–2 (36 вопросов — самый тяжёлый блок)
 
@@ -65,19 +85,19 @@
 - [ ] На каждом: назвать, что упадёт первым при ×10
 - Закрывает раздел 16 (6 вопросов)
 
-### п.5 — AspNetLab · pipeline, DI, BackgroundService
-- [ ] `dotnet test` и `dotnet run --project src/AspNetLab.Api`
-- [ ] Captive dependency в `DiTraps/` — почему это ловушка
-- [ ] Порядок middleware, `CorrelationIdMiddleware`, `RequestTimingMiddleware`
-- [ ] `ValidateRecipientAttribute` — фильтры vs middleware, когда что
+### п.5 — AspNetLab · pipeline, DI, BackgroundService  ✅ пройден
+- [x] `dotnet test` и `dotnet run --project src/AspNetLab.Api`
+- [x] Captive dependency в `DiTraps/` — почему это ловушка
+- [x] Порядок middleware, `CorrelationIdMiddleware`, `RequestTimingMiddleware`
+- [x] `ValidateRecipientAttribute` — фильтры vs middleware, когда что
 - Закрывает раздел 3 (12 вопросов)
 
-### п.6 — EfCoreLab · EF Core и SQL на реальном Postgres
-- [ ] `docker compose up -d` (Postgres)
-- [ ] Сценарий N+1: увидеть число запросов через `QueryCountingInterceptor`
-- [ ] Change tracking vs `AsNoTracking` — замер
-- [ ] Оптимистичная блокировка через `xmin`
-- [ ] `EXPLAIN ANALYZE`, индексы составные/покрывающие
+### п.6 — EfCoreLab · EF Core и SQL на реальном Postgres  ✅ пройден
+- [x] `docker compose up -d` (Postgres)
+- [x] Сценарий N+1: увидеть число запросов через `QueryCountingInterceptor`
+- [x] Change tracking vs `AsNoTracking` — замер
+- [x] Оптимистичная блокировка через `xmin`
+- [x] `EXPLAIN ANALYZE`, индексы составные/покрывающие
 - Закрывает разделы 4–5 (26 вопросов)
 
 ### п.7 — GrpcLab · gRPC против REST с замером
@@ -153,6 +173,56 @@
 - [ ] [LeetCode.Practice/](LeetCode.Practice/) — 23 задачи на C#
 
 ---
+
+## Что делать дальше
+
+### Шаг 1 — закрыть разрыв «теория есть, материала нет» (самый дешёвый результат)
+
+У тебя отмечены 100 вопросов, но hands-on не пройден по двум разделам. Это выглядит
+на собесе хуже, чем просто «не готово»: интервьюер спросит, а на вопрос по SOLID
+или Clean Architecture ты будешь пересказывать теорию без живого примера.
+
+**п.14 — CleanLab** (раздел 7, 12 вопросов) — приоритет №1. На собеседованиях Senior
+обязательно спрашивают про слои, направление зависимостей и разделение домена.
+- `dotnet test` и `dotnet run --project src/CleanLab.Api`
+- Проследить `Api → Infrastructure → Application → Domain` своими глазами
+- Разобрать `Debt.cs`: `Money` как VO, агрегат, фабрика `Debt.Open`
+- Ответить одной фразой: «DIP — это и есть Clean Architecture»
+
+**SolidMap** (раздел 6, 14 вопросов) — идёт сразу следом, код уже готов, нужно только
+привязать каждую букву SOLID и паттерн к файлу из пройденных проектов.
+
+### Шаг 2 — Behavioral (нельзя откладывать)
+
+Раздел 17, 8 вопросов. Единственный модуль, который **невозможно закрыть кодом** —
+нужны твои реальные истории. Именно его чаще всего заваливают на интервью, даже
+когда техническая часть прошла. Каркасы STAR уже написаны, остаётся наполнить.
+
+Одна история = 2–3 минуты речи. Начни с двух самых предсказуемых: «сложная задача»
+и «ошибка, которую исправил» — они завязаны на твой реальный опыт в финтехе
+(переработка сервисов взыскания, переключение платёжных систем, отчётность для
+кредитных бюро). Прогнать вслух с таймером.
+
+### Шаг 3 — OrderFlow (п.2 + п.3, самый весомый блок)
+
+Разделы 8–9, 28 вопросов — больше всего непокрытой теории в одной связке.
+Kafka, Outbox, Saga, Polly — то, что отличают Senior от Middle.
+Требует `docker compose up -d`.
+
+### Потом, по убыванию срочности
+
+| Пункт | Разделы | Вопросов | Почему в этом порядке |
+|---|---|---|---|
+| п.15 Behavioral | 17 | 8 | единственный, который нельзя доделать кодом |
+| п.14 CleanLab + SolidMap | 7, 6 | 26 | теория уже отмечена, не хватает практики |
+| п.2+3 OrderFlow | 8, 9 | 28 | самый большой непокрытый блок |
+| п.10 TestingLab | 13 | 10 | быстрый: нет внешней инфраструктуры кроме Testcontainers |
+| п.11–12 PerfLab | 14 | 10 | цифры уже есть в BenchmarkDotNet.Artifacts — просто прочитать |
+| п.4 SystemDesign | 16 | 6 | 6 вопросов, но каждый — 20 минут устного ответа |
+| п.13 RedisLab | 11 | 8 | меньший блок, рядом с уже пройденным |
+| п.7 GrpcLab | 10 | 12 | средний по объёму |
+| п.9 K8sLab | 12 | 12 | требует kind, дольше по настройке |
+| п.8 ObservabilityLab | 15 | 6 | зависит от OrderFlow, делать после него |
 
 ## Рабочий ритм (из README репозитория)
 

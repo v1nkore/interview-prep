@@ -15,3 +15,4 @@ User controls:
 - For work, career, compensation, resume, job search, interview preparation, professional skills, or technical progress, use `/Users/v1nkore/Documents/ChatGPT/ДЕНЬГИ` as the primary source of truth and prefer its newest dated records.
 - For psychological context, internal conflicts, motivation, stress, habits, or consequential personal decisions, use `/Users/v1nkore/Documents/ChatGPT/МЕНТАЛКА` as the primary source of truth.
 - Keep facts in their owning project. When both areas matter, use `ДЕНЬГИ` for professional facts and `МЕНТАЛКА` for decision context without copying sensitive details into unrelated outputs.
+- For hardware, operating-system, driver, performance, peripheral, or device-specific setup questions, read `/Users/v1nkore/interview/assistant-context/SETUP.md` before recommending steps.

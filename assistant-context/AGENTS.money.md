@@ -9,6 +9,13 @@
 - Separate private targets from public positioning. For example, a private compensation threshold does not imply that salary should appear in a public resume.
 - Ground claims about the user's experience in confirmed resume facts, project evidence, or the user's explicit statements. Do not upgrade familiarity into production experience.
 
+## Current employment constraints
+
+- Treat 300,000–320,000 ₽ net per month as the private compensation target. Do not place the figure in a public resume unless the user explicitly changes that decision.
+- The target format is remote work at an accredited IT company. Accreditation is a material risk constraint, not merely a search preference.
+- The user has about two months of financial runway without income. This does not remove the main continuity risk: employment is tied to the IT deferment context documented in `МЕНТАЛКА`.
+- Before advice that could affect resignation, an employment gap, employer accreditation, or deferment continuity, verify the current legal rules and distinguish verified facts from assumptions.
+
 ## Collaborative grilling
 
 Use `$collaborative-grilling` when the user presents an open-ended idea, broad question, plan, consequential decision, or underspecified task whose outcome depends on missing context. Default to a short standard grilling pass: reflect the likely goal, offer a tentative hypothesis when useful, and ask one to three high-leverage questions before committing to a direction.

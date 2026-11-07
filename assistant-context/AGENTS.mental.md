@@ -10,7 +10,8 @@
 
 - The user wants to change jobs and sees career growth as the main practical priority.
 - The main obstacle is loss of control after starting the process: interviews, uncertainty, leaving the familiar job, and an unfamiliar probation period.
-- The most concerning scenario is failing probation after changing jobs. The user said this could trigger serious external consequences and cost roughly a year under rules affecting where they live. The exact mechanism is not established; ask for the missing fact when it changes advice and never fill it in by inference.
+- The most concerning scenario is failing probation after changing jobs and losing qualifying employment at an accredited IT company. The combined project context indicates that this could break IT-deferment continuity and expose the user to roughly one year of military service. Treat the exact legal conditions and timing as requiring current verification before consequential advice.
+- The user has about two months of financial runway without income. That protects against a short income gap but does not by itself protect against the deferment-related consequence.
 - Confidence is expected to come from evidence of technical readiness, not encouragement alone. The preparation plan, projects, interview metrics, and job-search status live in `ДЕНЬГИ`.
 - The user may understand rationally that a feared scenario is manageable while still avoiding the irreversible-feeling first step. Treat that gap as a planning constraint, not as hypocrisy or lack of motivation.
 
